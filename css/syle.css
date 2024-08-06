@@ -1,9 +1,70 @@
-.fullcontainer{
-
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.bgfundo{
-    background: url(https://placehold.co/644x345) no-repeat/center;
-    width: 100%;
-    height: 700px;
+.fullcontainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bgfundo {
+  background: url(https://placehold.co/644x345) no-repeat/center;
+  width: 100%;
+  height: 700px;
+}
+
+header {
+  color: #008dda;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #f7eedd;
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1073px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.main-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.main-navigation a {
+  color: #008dda;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: solid 3px transparent;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  border-color: #ace2e1;
+}
+
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec-menu {
+  display: flex;
 }
