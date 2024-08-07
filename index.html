@@ -10,20 +10,45 @@
   <body>
     <div>
       <header>
-        <div class="container site-header-main">
-          <p>MediCare</p>
-          <nav id="site-navegation" class="main-navigation">
-            <img src="https://placehold.co/180x80" alt="">
-            <ul id="menu-principal" class="primary-menu">
-              <li><a href="">Home</a></li>
-              <li><a href="">Sobre</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">FAQ</a></li>
-            </ul>
-          </nav>
+        <div id="divLogo">
+          <img src="https://placehold.co/200x90" alt="" />
         </div>
+
+        <nav id="divMenu">
+          <ul id="menu-principal" class="primary-menu">
+            <li>
+              <a href="">Home</a>
+            </li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div id="divBotoes">
+          <button id="btnConsulta" class="btnMenu">
+            <ion-icon name="search-outline"></ion-icon>
+            <span class="labelBtn">Consulta Online</span>
+          </button>
+          <button id="btnPaciente" class="btnMenu">
+            <ion-icon name="person-outline"></ion-icon>
+            <span class="labelBtn">Login Paciente</span>
+          </button>
+          <button id="btnMedico" class="btnMenu">
+            <ion-icon name="medkit-outline"></ion-icon>
+            <span class="labelBtn">Médico</span>
+          </button>
+        </div>
+        <div id="divBanner"></div>
       </header>
     </div>
   </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </html>
-
