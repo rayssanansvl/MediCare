@@ -162,10 +162,57 @@ header {
 #divPerguntas {
   text-align: center;
   font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #divPerguntas button {
   text-align: initial;
-  min-width: 60%;
-  background: rgba(255, 255, 255, 0.3);
+  width: 60%;
+  background: rgba(255, 255, 255, 0.845);
   margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#divSobre {
+  background: #f4f4f4e2;
+  height: 467px;
+  bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.sobre {
+  display: flex;
+  width: 720px;
+  margin: 0 auto;
+}
+
+#divQuemsomos {
+  font-size: 13px;
+  display: flex;
+  width: 550px;
+  margin: 0 auto;
+  min-width: 80%;
+}
+#divQuemsomos img{
+  margin-left: 25px;
+ 
+}
+
+#divRodape {
+  font-size: 20px;
+  display: flex;
+  width: 720px;
+  margin: 0 auto;
+}
+
+#divdadosRodape {
+  font-size: 13px;
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
 }
