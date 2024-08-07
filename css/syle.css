@@ -64,7 +64,7 @@ header {
   text-decoration: none;
 }
 #menu-principal li a:hover {
-  color: #000202;
+  color: #41c9e2;
 }
 
 .container {
@@ -86,9 +86,9 @@ header {
 }
 
 .btnMenu:hover {
-  background: #008dda;
-  color: #F7EEDD ;
-  border: #008dda solid 2px;
+  background: #41c9e2;
+  color: #f7eedd;
+  border: #41c9e2 solid 2px;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 16px;
@@ -98,4 +98,74 @@ header {
 
 .labelBtn {
   margin-left: 10px;
+}
+#divBanner {
+  overflow: hidden;
+}
+
+#divAgendamento {
+  text-align: center;
+  font-size: 25px;
+}
+
+#segundoMenu {
+  background: #008dda;
+  color: #f7eedd;
+  border: #008dda solid 2px;
+  border-radius: 65px;
+  padding: 0px 15px;
+  font-size: 16px;
+  font-weight: bolder;
+  height: 40px;
+  margin-right: 8px;
+}
+
+#segundoMenu:hover {
+  background: #41c9e2;
+  color: #ffffff;
+  border: #41c9e2 solid 2px;
+  border-radius: 65px;
+  padding: 0px 15px;
+  font-size: 16px;
+  font-weight: bolder;
+  height: 40px;
+}
+
+#descricao {
+  font-size: 10px;
+}
+#image {
+  background: #ececec;
+  height: 467px;
+  bottom: 100px;
+}
+#image img {
+  justify-content: center;
+}
+
+#imageService {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#imageService img {
+  width: 300px;
+}
+
+#divQuestions {
+  text-align: center;
+  font-size: 25px;
+}
+
+#divPerguntas {
+  text-align: center;
+  font-size: 15px;
+}
+#divPerguntas button {
+  text-align: initial;
+  min-width: 60%;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 10px;
 }
