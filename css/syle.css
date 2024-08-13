@@ -158,6 +158,7 @@ header {
 #divQuestions {
   text-align: center;
   font-size: 25px;
+  color: #008dda;
 }
 
 #divPerguntas {
@@ -168,6 +169,8 @@ header {
   align-items: center;
 }
 #divPerguntas button {
+  border-radius: 15px;
+  border-color: #008dda;
   text-align: initial;
   width: 60%;
   background: rgba(255, 255, 255, 0.845);
@@ -187,6 +190,7 @@ header {
 }
 
 .sobre {
+  color: #008dda;
   display: flex;
   width: 720px;
   margin: 0 auto;
@@ -267,51 +271,38 @@ header {
   margin-top: 20px;
 }
 
+.Zap {
+  color: inherit;
+  text-decoration: none;
+
+}
+
 footer {
   background: #F7EEDD;
   min-height: 400px;
   /* margin-top: -281px; */
-  color: #000000;
+  color: #008dda;
   display: flex;
-  justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
-footer p{
-  width: 50%;
+
+footer #dados{
+display: flex;
+width: 1070px;
 }
+
 footer .itens {
   display: flex;
   max-width: 50%;
 }
 
 footer .loc {
-  margin-left: 150%;
-  color: #000000;
+  color: #008dda;
   
 }
-
-/* footer #dados {
-  display: flex;
-  max-width: 0 14%;
-  justify-content: space-between;
-}
-
-  #dados p{
-    max-width: 50%;
-  }
-
-#dados p,
-#dados h4 {
-  margin: 0;
-}
-
-#dados h4 {
-  margin-top: 10px;
-}
-
-footer #dados:first-child {
-  margin-left: 20%;
-} */
 
 #copyright {
   text-align: center;
