@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .fullcontainer {
@@ -19,8 +20,8 @@ body {
 }
 
 header {
-  color: #008dda;
-  background: #f7eedd;
+  color: #7a938a;
+  background: #ffffff;
   display: flex;
   justify-content: space-around;
   height: 120px;
@@ -60,11 +61,11 @@ header {
 
 #menu-principal li a {
   font-size: 14px;
-  color: #008dda;
+  color: #7a938a;
   text-decoration: none;
 }
 #menu-principal li a:hover {
-  color: #41c9e2;
+  color: #364841;
 }
 
 .container {
@@ -77,8 +78,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #008dda;
-  border: #008dda solid 1px;
+  color: #7a938a;
+  border: #7a938a solid 1px;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 16px;
@@ -86,9 +87,9 @@ header {
 }
 
 .btnMenu:hover {
-  background: #41c9e2;
-  color: #f7eedd;
-  border: #41c9e2 solid 2px;
+  background: #7a938a;
+  color: #ffffff;
+  border: #7a938a solid 2px;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 16px;
@@ -106,12 +107,15 @@ header {
 #divAgendamento {
   text-align: center;
   font-size: 25px;
+  color: #7a938a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #segundoMenu {
-  background: #008dda;
-  color: #f7eedd;
-  border: #008dda solid 2px;
+  background: #cfac67;
+  color: #ffffff;
+  border: #cfac67 solid 2px;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 16px;
@@ -121,9 +125,9 @@ header {
 }
 
 #segundoMenu:hover {
-  background: #41c9e2;
+  background: #ad9e82;
   color: #ffffff;
-  border: #41c9e2 solid 2px;
+  border: #ad9e82 solid 2px;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 16px;
@@ -135,7 +139,7 @@ header {
   font-size: 10px;
 }
 #image {
-  background: #ececec;
+  background: #7a938a;
   height: 400px;
   bottom: 100px;
 }
@@ -158,7 +162,7 @@ header {
 #divQuestions {
   text-align: center;
   font-size: 25px;
-  color: #008dda;
+  color: #cfac67;
 }
 
 #divPerguntas {
@@ -170,7 +174,7 @@ header {
 }
 #divPerguntas button {
   border-radius: 15px;
-  border-color: #008dda;
+  border-color: #7a938a;
   text-align: initial;
   width: 60%;
   background: rgba(255, 255, 255, 0.845);
@@ -190,7 +194,7 @@ header {
 }
 
 .sobre {
-  color: #008dda;
+  color: #cfac67;
   display: flex;
   width: 720px;
   margin: 0 auto;
@@ -203,9 +207,8 @@ header {
   margin: 0 auto;
   min-width: 80%;
 }
-#divQuemsomos img{
+#divQuemsomos img {
   margin-left: 25px;
- 
 }
 
 .forms {
@@ -225,7 +228,7 @@ header {
 }
 
 .forms h2 {
-  color: #008dda;
+  color: #7a938a;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -262,8 +265,8 @@ header {
 }
 
 .forms input[type="submit"] {
-  background: #008dda;
-  border-color: #008dda;
+  background: #7a938a;
+  border-color: #7a938a;
   width: 155px;
   border-radius: 50px;
   color: #fff;
@@ -274,24 +277,22 @@ header {
 .Zap {
   color: inherit;
   text-decoration: none;
-
 }
 
 footer {
-  background: #F7EEDD;
+  background: #cfac67;
   min-height: 400px;
   /* margin-top: -281px; */
-  color: #008dda;
+  color: #ffffff;
   display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-footer #dados{
-display: flex;
-width: 1070px;
+footer #dados {
+  display: flex;
+  width: 1070px;
 }
 
 footer .itens {
@@ -300,12 +301,12 @@ footer .itens {
 }
 
 footer .loc {
-  color: #008dda;
-  
+  color: #ffffff;
 }
 
 #copyright {
+  background: #cfac67;
+  padding: 10px;
   text-align: center;
   margin-top: 100px;
 }
-
