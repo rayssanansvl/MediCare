@@ -136,7 +136,7 @@ header {
 }
 #image {
   background: #ececec;
-  height: 467px;
+  height: 400px;
   bottom: 100px;
 }
 #image img {
@@ -144,6 +144,7 @@ header {
 }
 
 #imageService {
+  margin: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,6 +214,8 @@ header {
 #divdadosRodape {
   font-size: 13px;
   display: flex;
-  width: 300px;
+  width: 550px;
   margin: 0 auto;
+  min-width: 80%;
+
 }
